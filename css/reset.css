@@ -123,6 +123,7 @@ a:hover {
 
 a {
   color: var(--font_01);
+  text-decoration: none;
 }
 
 .dropdown-item:active {
@@ -169,6 +170,50 @@ img {
   border-color: var(--point_01);
 }
 
+.btn-primary {
+  background-color: var(--def_wh);
+  color: var(--point_01);
+  border: 1px solid var(--point_01);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.common_num {
+  background-color: var(--point_01);
+  border-radius: 3px;
+  color: var(--def_wh);
+  display: inline-block;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.count {
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 1200px;
+  }
+}
+
 .dropdown-toggle::after {
   border: 0;
 }
@@ -179,4 +224,12 @@ img {
 
 textarea {
   outline: none;
+}
+
+@media (min-width: 576px) {
+
+  .container,
+  .container-sm {
+    max-width: 1200px;
+  }
 }
